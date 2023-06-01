@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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" #Open AI API Key to make requests 
+openai.api_key = "API KEY" #Open AI API Key to make requests 
 
 def generate_response(email, optionalInformation=None):
     prompt = f"Your email: {email}"
